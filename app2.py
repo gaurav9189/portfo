@@ -17,6 +17,12 @@ def my_home(page_name):
     return render_template(page_name)
 
 
+# @app.route("/work<page_num>.html")
+# def my_work(page_num=1):
+#     # return "<p>Hello, World!</p>"
+#     return render_template(f'work{page_num}.html')
+
+
 @app.route('/submit_form', methods=['POST', 'GET'])
 def submit_form():
     if request.method == 'POST':
