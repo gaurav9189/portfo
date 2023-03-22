@@ -5,6 +5,12 @@ app = Flask(__name__)
 print(__name__)
 
 
+@app.route("/")
+def home():
+    # return "<p>Hello, World!</p>"
+    return render_template('index.html')
+
+
 @app.route("/<page_name>")
 def my_home(page_name):
     # return "<p>Hello, World!</p>"
@@ -21,10 +27,10 @@ def submit_form():
         return 'Something went wrong'
 
 
-def database_write(data):
-    with open('database.txt', 'a') as db:
-        for k, v in data.items():
-            db.write(f'{k}: {v}\n')
+# def database_write(data):
+#     with open('database.txt', 'a') as db:
+#         for k, v in data.items():
+#             db.write(f'{k}: {v}\n')
 
 
 def database_csv(data):
