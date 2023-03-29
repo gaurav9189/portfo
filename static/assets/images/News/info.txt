@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: IBMPlexSans-BoldItalic
+font link: https://fonts.google.com/specimen/IBM+Plex+Sans
+font author: Mike Abbink
+font author site: https://www.mikeabbink.com/
+
+
+icon designer: Wilson Joseph
+icon designer link: /wilsonjoseph
+        
+{"bg":"#D83950","icon":"#69144D","font":"#ffffff","slogan":"#ffffff"}
+      
